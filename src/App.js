@@ -1,5 +1,7 @@
 import React from 'react';
 import { FaChartLine, FaUsers, FaBalanceScale, FaSmile, FaChalkboardTeacher } from 'react-icons/fa';
+import Dashboard from './assets/HR-Dashboard.png'
+import DPS from './assets/Data-professional-survey.png'
 
 function App() {
   return (
@@ -47,6 +49,7 @@ function App() {
           <h2 className="text-2xl font-semibold text-indigo-600 text-center">Projects</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-6">
             <div className="bg-indigo-50 p-6 rounded-lg shadow-lg">
+              <img src={Dashboard} alt="HR Analytics Dashboard" className="w-full h-40 object-cover rounded-lg mb-4" />
               <h3 className="text-indigo-700 font-semibold">HR Analytics Dashboard</h3>
               <p className="text-gray-700 mt-2 text-sm sm:text-base">
                 Developed a comprehensive HR analytics dashboard using Power BI to monitor HR metrics such as turnover rates, hiring trends, and employee engagement scores.
@@ -54,25 +57,28 @@ function App() {
             </div>
 
             <div className="bg-indigo-50 p-6 rounded-lg shadow-lg">
-              <h3 className="text-indigo-700 font-semibold">Workforce Planning Tool</h3>
-              <p className="text-gray-700 mt-2 text-sm sm:text-base">
-                Created a workforce planning tool in Excel with advanced formulas and data models to assist in talent forecasting and optimize resource allocation.
-              </p>
-            </div>
-
-            <div className="bg-indigo-50 p-6 rounded-lg shadow-lg">
+              <img src={DPS} alt="DEI Analytics Report" className="w-full h-40 object-cover rounded-lg mb-4" />
               <h3 className="text-indigo-700 font-semibold">DEI Analytics Report</h3>
               <p className="text-gray-700 mt-2 text-sm sm:text-base">
                 Analyzed diversity and inclusion data and produced reports to help executives make data-driven decisions on improving workplace equity and diversity efforts.
               </p>
             </div>
 
-            <div className="bg-indigo-50 p-6 rounded-lg shadow-lg">
+            <div className="bg-indigo-50 p-6 rounded-lg shadow-lg">             
+              <h3 className="text-indigo-700 font-semibold">Workforce Planning Tool</h3>
+              <p className="text-gray-700 mt-2 text-sm sm:text-base">
+                Created a workforce planning tool in Excel with advanced formulas and data models to assist in talent forecasting and optimize resource allocation.
+              </p>
+            </div>         
+
+            <div className="bg-indigo-50 p-6 rounded-lg shadow-lg">              
               <h3 className="text-indigo-700 font-semibold">Employee Engagement Analysis</h3>
               <p className="text-gray-700 mt-2 text-sm sm:text-base">
                 Conducted sentiment analysis on employee feedback surveys and presented findings in visual reports to improve company culture and engagement strategies.
               </p>
             </div>
+
+            
           </div>
         </section>
 
