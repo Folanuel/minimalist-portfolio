@@ -11,7 +11,7 @@ function App() {
       <div className="max-w-4xl mx-auto p-6 bg-white shadow-2xl rounded-lg">
         <div className="text-center animate-fadeIn">
           <h1 className="text-3xl sm:text-4xl font-bold mt-4 text-indigo-700">Haleemah Onikoyi</h1>
-          <p className="text-gray-600 mt-2 text-base sm:text-lg">HR Data Analyst</p>
+          <p className="text-gray-600 mt-2 text-base sm:text-lg">People Analyst</p>
         </div>
 
         <section className="mt-10 animate-fadeIn">
